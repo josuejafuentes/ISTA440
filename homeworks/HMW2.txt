@@ -1,0 +1,32 @@
+1. List the order of execution of a SQL query.
+FROM, including JOINs
+WHERE
+GROUP BY
+HAVING
+WINDOW functions
+SELECT
+DISTINCT
+UNION
+ORDER BY
+LIMIT and OFFSET
+2. What does the from clause do?
+The SQL FROM clause is used to list the tables and any joins required for the SQL statement.
+3. What does the where clause do?
+The WHERE clause is used to filter records
+4. What does the group by clause do?
+is used to group rows that have the same values
+5. What does the having clause do?
+The HAVING Clause enables you to specify conditions that filter which group results appear in the results
+6. What does the select clause do?
+use a SELECT clause to specify the names of the fields that have data that you want to use in a query
+7. What does the distinct keyword do?
+eliminate all the duplicate records and fetching only unique records
+8. What does the order by clause do?
+used to sort the data in ascending or descending order
+9. What does the limit clause do? This is not in the book.
+clause is used to set an upper limit on the number of tuples returned by SQL
+10. What does the top clause do?
+used to specify the number of records to return
+11. What do the oﬀset ...fetch ... clauses do?
+OFFSET and FETCH Clause are used in conjunction with SELECT and ORDER BY clause to provide a means to retrieve
+a range of records

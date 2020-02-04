@@ -1,0 +1,10 @@
+tsql lab 2c
+commands:
+group by
+count
+top = limit
+sum = sum of two objects
+[] identify table
+getdate = today's date
+number of order that are ten or more each shipper
+ delivered to each country listed by country and number of order

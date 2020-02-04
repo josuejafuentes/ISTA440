@@ -1,0 +1,38 @@
+# chapter 5 HMW
+### josue fuentes
+###### Feb 4 2020
+
+1. What is a table expression? Can you give a technical denition of a table expression?
+A common table expression, or CTE, (in SQL) is a temporary named result set,
+derived from a simple query and defined within the execution scope of a SELECT
+ INSERT, UPDATE, or DELETE statement.
+2. In what SQL clause are derived tables (table valued subqueries) located?
+in the outer query
+3. Why can you refer to column aliases in an outer query that you dened in an inner table valued
+subquery?
+
+4. What SQL key word denes a common table expression?
+the WITH keyword
+5. When using common table expressions, can a subsequent derived table use a table alias declared in a
+preceding table expression?
+yes because is in the same scope
+6. Can a main query refer to a previously dened common table expression by multiple aliases?
+yes
+7. In SQL, is a view a durable object?
+durable object is an object that has a material existing in the system
+a view is a type of table expression whose definition are stored as a permanent
+objects in the database making them reusable therefore a view obkject is reliable
+
+8. In a view, what does WITH CHECK OPTION do? Why is this important?
+it prevents you from seeing additional information that is not needed
+
+9. In a view, what does SCHEMABINDING do? Why is this important?
+
+10. What is a table valued function?
+
+11. What does the APPLY operator do?
+The APPLY operator allows you to join two table expressions
+
+12. What are the two forms of the APPLY operator? Give an example of each.
+* cross apply grabs the info from the left side of the table and compares it to the right
+* outer apply returns all values of the left table regardless of them matching with the right
